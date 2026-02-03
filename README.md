@@ -9,9 +9,15 @@ example:
 # Goose Migration Down
 goose postgres <connection_string> down
 
+goose postgres "postgres://vishals:@localhost:5432/chirpy" down-to 20260123042621
+
+
 example:
 `goose postgres "postgres://vishals:@localhost:5432/chirpy" down`
 
 # SQLC Generate
 
 `sqlc generate`
+
+
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
