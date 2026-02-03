@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sudovishal/chirpy_boot.dev/internal/database"
+	"github.com/sudovishal/chirpy/internal/database"
 )
 
 type Chirp struct {

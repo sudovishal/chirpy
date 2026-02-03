@@ -1,4 +1,4 @@
-module github.com/sudovishal/chirpy_boot.dev
+module github.com/sudovishal/chirpy
 
 go 1.23.4
 

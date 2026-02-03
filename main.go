@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 
 	"github.com/joho/godotenv"
-	"github.com/sudovishal/chirpy_boot.dev/internal/database"
+	"github.com/sudovishal/chirpy/internal/database"
 
 	_ "github.com/lib/pq"
 )

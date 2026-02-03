@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sudovishal/chirpy_boot.dev/internal/auth"
-	"github.com/sudovishal/chirpy_boot.dev/internal/database"
+	"github.com/sudovishal/chirpy/internal/auth"
+	"github.com/sudovishal/chirpy/internal/database"
 )
 
 type User struct {
